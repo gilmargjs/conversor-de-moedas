@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #ff0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  width: 50px;
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: #000000;
+}
+
+button {
+  margin: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resposta {
+  margin: 0 auto;
+  display: none;
+  width: 500px;
+  height: 250px;
+  color: #ff0;
+  background-color: #000;
+  font-size: 30px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+}
+.texto {
+  color: #000000;
+}
+.vl {
+  text-align: start;
+}
+.valorConvertido {
+  text-align: start;
+}
